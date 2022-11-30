@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521441583717",
+    "project_id": "swu-map",
+    "storage_bucket": "swu-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521441583717:android:cfb12196fa5c1b798fdc8c",
+        "android_client_info": {
+          "package_name": "com.test.navermap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521441583717-sqs8h2nc3c6qviohsgtdj6vu7bj0uc1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.navermap",
+            "certificate_hash": "5fd2defa6cde75dc7c6a546e0e4591e512f0c00f"
+          }
+        },
+        {
+          "client_id": "521441583717-5s7uq3hkavpdbbg557qaa5cgvtgvaibq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDarVcrUqi3WNC3X2b50YnFdYaID6X_Qag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521441583717-5s7uq3hkavpdbbg557qaa5cgvtgvaibq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

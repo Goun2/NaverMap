@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#6A000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <com.naver.maps.map.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+        </com.naver.maps.map.MapView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="57dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/bookmark"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onImageviewClicked"
+            android:src="@drawable/select">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="bottom"
+        android:background="#6D000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bookmark_page"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="320dp"
+            android:gravity="center"
+            android:text="즐겨찾기" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
